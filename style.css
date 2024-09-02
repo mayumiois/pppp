@@ -1,0 +1,17 @@
+.number {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 10px;
+    font-size: 24px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.number.boom {
+    background-color: red;
+    color: white;
+}
